@@ -62,6 +62,8 @@ local nvim_cmp = {
 }
 -- Other uses of the selected word highlighter
 local vim_illuminate = "RRethy/vim-illuminate"
+-- Git diff viewer
+local diffview = "sindrets/diffview.nvim" 
 
 
 require("lazy").setup({
@@ -77,4 +79,5 @@ require("lazy").setup({
     indent_blankline,
     nvim_cmp,
     vim_illuminate,
+    diffview,
 })
