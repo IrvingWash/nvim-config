@@ -30,9 +30,21 @@ local nvim_tree = {
         "nvim-tree/nvim-web-devicons",
     },
 }
+-- Fuzzy finder
+local telescope = {
+    "nvim-telescope/telescope.nvim",
+    branch = "0.1.x",
+    dependencies = {
+        "nvim-lua/plenary.nvim",
+        "BurntSushi/ripgrep",
+        "sharkdp/fd",
+    },
+}
+
 
 require("lazy").setup({
     rose_pine,
     nvim_web_dev_icons,
     nvim_tree,
+    telescope,
 })
