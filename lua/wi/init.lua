@@ -1,1 +1,1 @@
-print("Hello from WI")
+require("wi.core.options")
