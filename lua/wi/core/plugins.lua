@@ -16,8 +16,7 @@ vim.opt.rtp:prepend(lazy_path)
 
 -- Theme
 local rose_pine = {
-    "rose-pine/neovim",
-    name = "rose-pine",
+    "drewtempelmeyer/palenight.vim",
 }
 -- Icons
 local nvim_web_dev_icons = "nvim-tree/nvim-web-devicons"
