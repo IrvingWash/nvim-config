@@ -60,6 +60,8 @@ local nvim_cmp = {
         "hrsh7th/cmp-cmdline",
     },
 }
+-- Other uses of the selected word highlighter
+local vim_illuminate = "RRethy/vim-illuminate"
 
 
 require("lazy").setup({
@@ -74,4 +76,5 @@ require("lazy").setup({
     lualine,
     indent_blankline,
     nvim_cmp,
+    vim_illuminate,
 })
