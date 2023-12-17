@@ -50,6 +50,16 @@ local gitsigns = "lewis6991/gitsigns.nvim"
 local lualine = "nvim-lualine/lualine.nvim"
 -- Indentation guides
 local indent_blankline = "lukas-reineke/indent-blankline.nvim"
+-- Autocompletion
+local nvim_cmp = {
+    'hrsh7th/nvim-cmp',
+    dependencies = {
+        "hrsh7th/cmp-nvim-lsp",
+        "hrsh7th/cmp-buffer",
+        "hrsh7th/cmp-path",
+        "hrsh7th/cmp-cmdline",
+    },
+}
 
 
 require("lazy").setup({
@@ -63,4 +73,5 @@ require("lazy").setup({
     gitsigns,
     lualine,
     indent_blankline,
+    nvim_cmp,
 })
