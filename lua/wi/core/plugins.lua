@@ -36,6 +36,11 @@ local telescope = {
     branch = "0.1.x",
     dependencies = { "nvim-lua/plenary.nvim" },
 }
+-- Syntax hightlighting
+local treesitter = {
+    "nvim-treesitter/nvim-treesitter",
+    build = ":TSUpdate",
+}
 
 
 require("lazy").setup({
@@ -43,4 +48,5 @@ require("lazy").setup({
     nvim_web_dev_icons,
     nvim_tree,
     telescope,
+    treesitter,
 })
