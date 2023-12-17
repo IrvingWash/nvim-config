@@ -48,6 +48,8 @@ local mason = "williamboman/mason.nvim"
 local gitsigns = "lewis6991/gitsigns.nvim"
 -- Status line
 local lualine = "nvim-lualine/lualine.nvim"
+-- Indentation guides
+local indent_blankline = "lukas-reineke/indent-blankline.nvim"
 
 
 require("lazy").setup({
@@ -60,4 +62,5 @@ require("lazy").setup({
     mason,
     gitsigns,
     lualine,
+    indent_blankline,
 })
