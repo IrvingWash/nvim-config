@@ -41,6 +41,10 @@ local treesitter = {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
 }
+-- LSP
+local lspconfig = "neovim/nvim-lspconfig"
+-- LSP management
+local mason = "williamboman/mason.nvim"
 
 
 require("lazy").setup({
@@ -49,4 +53,6 @@ require("lazy").setup({
     nvim_tree,
     telescope,
     treesitter,
+    lspconfig,
+    mason,
 })
