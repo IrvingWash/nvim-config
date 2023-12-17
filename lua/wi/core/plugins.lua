@@ -44,6 +44,8 @@ local treesitter = {
 local lspconfig = "neovim/nvim-lspconfig"
 -- LSP management
 local mason = "williamboman/mason.nvim"
+-- Git signs
+local gitsigns = "lewis6991/gitsigns.nvim"
 
 
 require("lazy").setup({
@@ -54,4 +56,5 @@ require("lazy").setup({
     treesitter,
     lspconfig,
     mason,
+    gitsigns,
 })
