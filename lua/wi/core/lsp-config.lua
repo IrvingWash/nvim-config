@@ -9,3 +9,4 @@ lspconfig.lua_ls.setup {}
 lspconfig.tsserver.setup {}
 lspconfig.eslint.setup {}
 lspconfig.rust_analyzer.setup {}
+lspconfig.clangd.setup {}
