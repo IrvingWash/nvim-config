@@ -2,6 +2,7 @@ local g = vim.g
 local opt = vim.opt
 
 opt.mouse = "a" -- Enable mouse for all the modes.
+opt.relativenumber = true -- Enable relative numbers
 opt.clipboard = "unnamedplus" -- Hopefully make the clipboard make in the intuitive way.
 opt.swapfile = false -- Disable swap files.
 opt.number = true -- Print the line numbers.
