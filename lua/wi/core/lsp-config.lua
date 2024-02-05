@@ -10,3 +10,4 @@ lspconfig.tsserver.setup {}
 lspconfig.eslint.setup {}
 lspconfig.rust_analyzer.setup {}
 lspconfig.clangd.setup {}
+lspconfig.cmake.setup {}
