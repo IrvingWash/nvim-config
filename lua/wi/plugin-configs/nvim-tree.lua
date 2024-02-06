@@ -20,4 +20,7 @@ end
 -- pass to setup along with your other options
 require("nvim-tree").setup {
     on_attach = on_attach,
+    filters = {
+        dotfiles = false,
+    },
 }
