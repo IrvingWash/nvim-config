@@ -14,10 +14,6 @@ end
 
 vim.opt.rtp:prepend(lazy_path)
 
--- Theme
-local rose_pine = {
-    "drewtempelmeyer/palenight.vim",
-}
 -- Icons
 local nvim_web_dev_icons = "nvim-tree/nvim-web-devicons"
 -- File explorer
@@ -63,11 +59,13 @@ local nvim_cmp = {
 -- Other uses of the selected word highlighter
 local vim_illuminate = "RRethy/vim-illuminate"
 -- Git diff viewer
-local diffview = "sindrets/diffview.nvim" 
+local diffview = "sindrets/diffview.nvim"
 
+-- Themes
+local kanagawa = "rebelot/kanagawa.nvim"
+local catpuccin = { "catppuccin/nvim", name = "catppuccin" }
 
 require("lazy").setup({
-    rose_pine,
     nvim_web_dev_icons,
     nvim_tree,
     telescope,
@@ -80,4 +78,6 @@ require("lazy").setup({
     nvim_cmp,
     vim_illuminate,
     diffview,
+    kanagawa,
+    catpuccin,
 })
