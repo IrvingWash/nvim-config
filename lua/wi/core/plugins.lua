@@ -60,12 +60,6 @@ local nvim_cmp = {
 local vim_illuminate = "RRethy/vim-illuminate"
 -- Git diff viewer
 local diffview = "sindrets/diffview.nvim"
--- Tabs
-local bufferline = {
-    'akinsho/bufferline.nvim',
-    version = "*",
-    dependencies = 'nvim-tree/nvim-web-devicons'
-}
 
 -- Themes
 local kanagawa = "rebelot/kanagawa.nvim"
@@ -84,7 +78,6 @@ require("lazy").setup({
     nvim_cmp,
     vim_illuminate,
     diffview,
-    bufferline,
     kanagawa,
     catpuccin,
 })
