@@ -48,7 +48,7 @@ local lualine = "nvim-lualine/lualine.nvim"
 local indent_blankline = "lukas-reineke/indent-blankline.nvim"
 -- Autocompletion
 local nvim_cmp = {
-    'hrsh7th/nvim-cmp',
+    "hrsh7th/nvim-cmp",
     dependencies = {
         "hrsh7th/cmp-nvim-lsp",
         "hrsh7th/cmp-buffer",
@@ -60,6 +60,14 @@ local nvim_cmp = {
 local vim_illuminate = "RRethy/vim-illuminate"
 -- Git diff viewer
 local diffview = "sindrets/diffview.nvim"
+-- Tabs
+local barbar = {
+    "romgrk/barbar.nvim",
+    dependencies = {
+        "lewis6991/gitsigns.nvim",
+        "nvim-tree/nvim-web-devicons",
+    },
+}
 
 -- Themes
 local kanagawa = "rebelot/kanagawa.nvim"
@@ -78,6 +86,7 @@ require("lazy").setup({
     nvim_cmp,
     vim_illuminate,
     diffview,
+    barbar,
     kanagawa,
     catpuccin,
 })
