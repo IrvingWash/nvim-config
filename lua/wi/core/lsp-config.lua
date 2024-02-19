@@ -13,3 +13,4 @@ lspconfig.rust_analyzer.setup{}
 lspconfig.clangd.setup{}
 lspconfig.cmake.setup{}
 lspconfig.gopls.setup{}
+lspconfig.ols.setup{}
